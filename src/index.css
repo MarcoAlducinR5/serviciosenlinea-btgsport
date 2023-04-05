@@ -4,6 +4,19 @@
 
 @layer components {
   #root{
-    @apply flex flex-col min-h-screen;
+    @apply 
+      flex 
+      flex-col 
+      min-h-screen 
+      bg-cover
+      /*Fondo de pantalla de modulo inicial*/
+      2xs:bg-[url('./Assets/bg_1_movil.png')] 
+      xs:bg-[url('./Assets/bg_1_movil.png')] 
+      sm:bg-[url('./Assets/bg_1_movil.png')] 
+      md:bg-[url('./Assets/bg_1_movil.png')] 
+      lg:bg-[url('./Assets/bg_1_movil.png')] 
+      xl:bg-[url('./Assets/bg_1.png')]
+      2xl:bg-[url('./Assets/bg_1.png')] 
+    ;
   }
 }
