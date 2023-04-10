@@ -5,14 +5,14 @@ module.exports = {
   ],
   theme: {
     screens: {
-      '2xs': '390px',
+      '2xs': '390px', /* iphone 12 */
       'xs': '475px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
-      '3xl': '1600px',
+      'sm': '640px', /* iphone 12 */
+      'md': '768px', /* Oppo */
+      'lg': '1024px', /* ipad */
+      'xl': '1280px', /* ipad pro */
+      '2xl': '1536px', /* macbook pro */
+      '3xl': '1600px', /* Escritorio */
     },
     extend: {},
   },
