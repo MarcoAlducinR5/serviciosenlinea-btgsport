@@ -35,9 +35,9 @@ function App() {
             </div>
       </header>
       <main className='flex flex-1'>
-        <div className='flex lg:flex-row 2xs:flex-col w-full'>
-          <div className='flex-1 border-2'>hola</div>
-          <div className='flex-1 border-2'>hola</div>
+        <div className='flex 2xs:flex-col lg:flex-row w-full items-center justify-around'>
+          <div className='flex flex-1 items-center justify-around w-full border-2 border-gray-300'>hola</div>
+          <div className='flex flex-1 items-center justify-around w-full border-2 border-gray-300'>hola</div>
         </div>
       </main>
       <footer>
