@@ -34,7 +34,12 @@ function App() {
                 </div>
             </div>
       </header>
-      <main className='flex flex-1'>main</main>
+      <main className='flex flex-1'>
+        <div className='flex lg:flex-row 2xs:flex-col w-full'>
+          <div className='flex-1 border-2'>hola</div>
+          <div className='flex-1 border-2'>hola</div>
+        </div>
+      </main>
       <footer>
         <div className='flex flex-row items-center justify-around'>
           <div className='block'>
