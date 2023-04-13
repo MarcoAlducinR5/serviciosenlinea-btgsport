@@ -10,6 +10,7 @@
       min-h-screen 
       bg-cover
       /*Fondo de pantalla de modulo inicial*/
+      3xs:bg-[url('./Assets/bg_1_movil.png')] 
       2xs:bg-[url('./Assets/bg_1_movil.png')] 
       xs:bg-[url('./Assets/bg_1_movil.png')] 
       sm:bg-[url('./Assets/bg_1_movil.png')] 
