@@ -4,6 +4,7 @@ import centroAyuda from '../Assets/icono-centroayuda.png';
 import logo from "../Assets/logo.png";
 import footer1 from "../Assets/footer_logos.png";
 import footer2 from "../Assets/footer_logos2.png";
+import imgHome from "../Assets/img_home.png";
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
       </header>
       <main className='flex flex-1'>
         <div className='flex 3xs:flex-col lg:flex-row w-full items-center justify-around'>
-          <div className='flex flex-1 items-center justify-around w-full h-full border-2 border-gray-300'>hola</div>
+          <div className='flex flex-1 items-center justify-around w-full h-full'>
+            <img src={imgHome} title="imgHome" alt="imgHome" placeholder="imgHome" className='xl:hidden 3xs:block 3xs:px-4 sm:px-5 md:w-[454px] lg:w-5/6'/>
+            {/* 3xs:px-4 sm:px-5 md:w-[454px] lg:w-5/6 */}
+          </div>
           <div className='flex flex-1 items-center justify-around w-full h-full border-2 border-gray-300'>hola</div>
         </div>
       </main>
