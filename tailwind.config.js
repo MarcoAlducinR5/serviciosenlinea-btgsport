@@ -5,7 +5,9 @@ module.exports = {
   ],
   theme: {
     screens: {
-      '3xs': '240px', 
+      '3xs1': '240px', 
+      '3xs2': '360px', 
+      '3xs3': '375px',
       /* nokia 8110 4G: 240x320 */
       /* Galaxy S9, Note 8, S8: 360x740 */
       /* iPhone XS, X: 375x812 */
