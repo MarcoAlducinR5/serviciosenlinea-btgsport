@@ -11,7 +11,15 @@ module.exports = {
       /* nokia 8110 4G: 240x320 */
       /* Galaxy S9, Note 8, S8: 360x740 */
       /* iPhone XS, X: 375x812 */
-      '2xs': '390px', 
+      '2xs1': '390px', 
+      '2xs2': '393px', 
+      '2xs3': '412px', 
+      '2xs4': [
+        {'min': '414px', 'max': '736px'}
+      ],
+      '2xs5': [
+        {'min': '414px', 'max': '896px'}
+      ], 
       /* iphone 12 pro: 390x844 */
       /* Pixel 3, 3XL: 393x786 */
       /* Galaxy S9Plus, S8Plus: 412x846 */

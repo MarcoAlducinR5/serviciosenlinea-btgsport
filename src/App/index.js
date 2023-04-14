@@ -15,9 +15,9 @@ function App() {
         <div className='flex justify-between p-2 3xl:bg-indigo-950 2xl:bg-indigo-950 xl:bg-indigo-950 lg:bg-indigo-950'> {/* #1D1B4C */}
           <div className='block'>
             <img src={logo} title="Header" alt="Header" placeholder="Header" className='2xl:py-4 2xl:pl-16 xl:py-4 xl:pl-16 lg:py-4 lg:pl-2 lg:block 3xs1:hidden'/>
-          </div>{/* pt-4 pl-16 w-11/12 w-[296px] */}
+          </div>
           <div className='block'>
-            <img src={centroAyuda} title="Ayuda" alt="Ayuda" placeholder="Ayuda" className='2xl:w-full 2xl:pr-24 2xl:px-1 xl:w-full xl:pr-24 xl:px-1 lg:w-full lg:pr-8 lg:px-1 md:w-16 md:pr-6 md:pt-2 sm:w-full sm:pr-20 sm:pt-2 xs:w-16 xs:pr-8 xs:pt-2 2xs:w-16 2xs:pr-8 2xs:pt-2 3xs1:w-7 3xs1:pr-2.5' />
+            <img src={centroAyuda} title="Ayuda" alt="Ayuda" placeholder="Ayuda" className='2xl:w-full 2xl:pr-24 2xl:px-1 xl:w-full xl:pr-24 xl:px-1 lg:w-full lg:pr-8 lg:px-1 md:w-16 md:pr-6 md:pt-2 sm:w-full sm:pr-20 sm:pt-2 xs:w-16 xs:pr-8 xs:pt-2 2xs1:w-16 2xs1:pr-8 2xs1:pt-2 3xs1:w-7 3xs1:pr-2.5' /> 
           </div>
         </div>
       </header>
@@ -27,7 +27,6 @@ function App() {
             <img src={imgHome} title="imgHome" alt="imgHome" placeholder="imgHome" className='xl:hidden 3xs1:block 3xs1:px-4 sm:px-5 md:w-[454px] lg:w-5/6'/>
           </div>
           <div className='flex flex-1 items-center justify-around w-full h-full text-center font-bold p-2 3xs1:p-1 3xs1:pb-2 3xs2:px-9'>
-          {/* 3xs1:p-2 3xs1:pb-2 */}
             <div className="block">
               <p className="3xs1:text-xl">Bienvenido a</p>
               <p className='flex flex-1 items-center justify-around 3xs1:p-2'>
@@ -35,15 +34,29 @@ function App() {
               </p>
               <p className="3xs1:text-sm 3xs1:px-1 3xs2:text-base">
                 Podrás ver completamente en VIVO las ligas deportivas más importantes del mundo, estés donde estés.
-                <div className="3xs1:text-xs 3xs1:p-2 3xs1:pr-8">
-                  Sólo para MX <img title="iconMX" src={iconMX} alt="iconMX" placeholder="iconMX" className='absolute 3xs1:-bottom-[75.5px] 3xs1:right-[68px] 3xs1:w-4 3xs2:bottom-[176.5px] 3xs2:right-[137.5px] 3xs3:bottom-[196px] 3xs3:right-[145px]'/>
+                <div className="flex">
+                  <div className="text-right
+                  3xs1:w-2/3 3xs1:mx-1 3xs1:text-xs 
+                  3xs2:w-2/3 3xs2:mx-1 3xs2:text-base
+                  2xs1:w-3/5 2xs1:mx-1 
+                  ">
+                    Sólo para MX
+                  </div>
+                  <div className="
+                  3xs1:w-1/3 3xs1:mx-1
+                  2xs1:w-2/5 2xs1:mx-1
+                  ">
+                    <img title="iconMX" src={iconMX} alt="iconMX" placeholder="iconMX" className='
+                    3xs1:w-4 3xs2:w-6 2xs1:w-6
+                    '/>
+                  </div>
                 </div>
               </p>
               <div className='flex flex-col items-center justify-around'>
-                <div className='block bg-[#F12364] w-28 3xs1:text-base 3xs1:my-2 3xs3:my-2 cursor-pointer rounded-[3.125rem]'>
+                <div className='block bg-[#F12364] w-32 3xs1:text-base 3xs1:my-2 3xs3:my-2 cursor-pointer rounded-[3.125rem]'>
                   <span className="btnContrata">Contrata</span>
                 </div>
-                <div className='block bg-[#603685] w-28 3xs1:text-base 3xs1:my-2 3xs3:my-2 cursor-pointer rounded-[3.125rem]'>
+                <div className='block bg-[#603685] w-32 3xs1:text-base 3xs1:my-2 3xs3:my-2 cursor-pointer rounded-[3.125rem]'>
                   <span className="btnTuCuenta">Tu cuenta</span>
                 </div>
               </div>
