@@ -26,7 +26,8 @@ module.exports = {
       /* iphone 8Plus, 7Plus, 6SPlus: 414x736 */
       /* iPhone XR, XSMax: 414x896 */
       'xs': '475px',
-      'sm': '640px', 
+      'sm1': '640px', 
+      'sm2': '640px', 
       /* iphone 12 */
       /* Large Screen: 688x1031 */
       /* Oppo: 720x1600 */
