@@ -9,6 +9,7 @@
       flex-col 
       min-h-screen 
       bg-cover
+      bg-fixed
       font-sans
       text-white
       /*Fondo de pantalla de modulo inicial*/
