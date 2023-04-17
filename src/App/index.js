@@ -22,11 +22,32 @@ function App() {
         </div>
       </header>
       <main className='flex flex-1'>
-        <div className='flex 3xs1:flex-col lg:flex-row w-full items-center justify-around'>
-          <div className='flex flex-1 items-center justify-around w-full h-full'>
-            <img src={imgHome} title="imgHome" alt="imgHome" placeholder="imgHome" className='xl:hidden 3xs1:block 3xs1:px-4 sm1:px-5 md:w-[454px] lg:w-5/6'/>
+        <div className="w-full grid grid-col-2 lg:grid-flow-col">
+          <div className="block">
+            <div className='flex flex-row 3xs1:items-end lg:items-center justify-around h-full text-center'>
+                <div className='block'>1</div>
+            </div>
           </div>
-          <div className='flex flex-1 items-center justify-around w-full h-full text-center font-bold p-2 3xs1:p-1 3xs1:pb-2 3xs2:px-9 sm1:pt-5 sm1:px-24 sm2:px-28'>
+          <div className="block">
+            <div className='flex 3xs1:flex-col md:flex-row lg:flex-col 3xs1:items-start md:items-center lg:items-start justify-around h-full text-center'>
+              <div className='block w-full h-full'>
+                <div className='flex flex-row 3xs1:items-end md:items-center lg:items-end justify-around h-full text-center'>
+                  <div className='block'>1</div>
+                </div>
+              </div>
+              <div className='block w-full h-full'>
+                <div className='flex flex-row 3xs1:items-start md:items-center lg:items-start justify-around h-full text-center'>
+                  <div className='block'>2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className='flex 3xs1:flex-col lg:flex-row w-full items-center justify-around'> */}
+          {/* <div className='flex flex-1 items-center justify-around w-full h-full'>
+            <img src={imgHome} title="imgHome" alt="imgHome" placeholder="imgHome" className='xl:hidden 3xs1:block 3xs1:px-4 sm1:px-5 md:w-[454px] lg:w-5/6'/>
+          </div> */}
+          {/* <div className='flex flex-1 items-center justify-around w-full h-full text-center font-bold p-2 3xs1:p-1 3xs1:pb-2 3xs2:px-9 sm1:pt-5 sm1:px-24 sm2:px-28'>
             <div className="block">
               <p className="sm1:text-3xl 3xs1:text-xl">Bienvenido a</p>
               <p className='flex flex-1 items-center justify-around 3xs1:p-2'>
@@ -62,8 +83,17 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+          {/* <div className='flex 3xs1:flex-col md:flex-row lg:flex-col w-full'>
+              <div className='block border-2'>
+              flex flex-1 items-center justify-around w-full h-full text-center font-bold p-2 3xs1:p-1 3xs1:pb-2 3xs2:px-9 sm1:pt-5 sm1:px-24 sm2:px-28
+
+              </div>
+              <div className='block border-2'>
+                Nulla do tempor consectetur non mollit ipsum.
+              </div>
+          </div> */}
+        {/* </div> */}
       </main>
       <footer>
         <div className='flex flex-row items-center justify-around'>
