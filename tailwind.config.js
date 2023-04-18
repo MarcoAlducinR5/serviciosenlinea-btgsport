@@ -31,7 +31,9 @@ module.exports = {
       /* iphone 12 */
       /* Large Screen: 688x1031 */
       /* Oppo: 720x1600 */
-      'md': '768px', 
+      'md1': '768px', 
+      'md2': '800px', 
+      'md3': '834px', 
       /* iPad: 768x1024 */
       /* iPad Pro 10.5": 834x1112 */
       /* Nexus 10: 800x1280 */

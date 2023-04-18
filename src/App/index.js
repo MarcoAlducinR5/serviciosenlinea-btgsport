@@ -25,18 +25,20 @@ function App() {
         <div className="w-full grid grid-col-2 lg:grid-flow-col">
           <div className="block">
             <div className='flex flex-row 3xs1:items-end lg:items-center justify-around h-full text-center'>
-                <div className='block'>1</div>
+                <div className='block'>
+                  <img src={imgHome} title="imgHome" alt="imgHome" placeholder="imgHome" className='xl:hidden 3xs1:block 3xs1:px-4 sm1:px-5 md1:w-[465px] md2:w-[482px] md3:w-[502px] lg:w-1/2'/>
+                </div>
             </div>
           </div>
           <div className="block">
-            <div className='flex 3xs1:flex-col md:flex-row lg:flex-col 3xs1:items-start md:items-center lg:items-start justify-around h-full text-center'>
+            <div className='flex 3xs1:flex-col md1:flex-row lg:flex-col 3xs1:items-start md1:items-center lg:items-start justify-around h-full text-center'>
               <div className='block w-full h-full'>
-                <div className='flex flex-row 3xs1:items-end md:items-center lg:items-end justify-around h-full text-center'>
+                <div className='flex flex-row 3xs1:items-end md1:items-center lg:items-end justify-around h-full text-center'>
                   <div className='block'>1</div>
                 </div>
               </div>
               <div className='block w-full h-full'>
-                <div className='flex flex-row 3xs1:items-start md:items-center lg:items-start justify-around h-full text-center'>
+                <div className='flex flex-row 3xs1:items-start md1:items-center lg:items-start justify-around h-full text-center'>
                   <div className='block'>2</div>
                 </div>
               </div>
