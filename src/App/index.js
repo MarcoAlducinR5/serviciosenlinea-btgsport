@@ -38,24 +38,23 @@ function App() {
                     <p className="3xs1:text-xl 3xs1:py-2 3xs2:text-2xl ">Bienvenido a</p>
                     {/* sm1:text-3xl */}
                     <p className='flex flex-1 items-center justify-around'>
-                      <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-24'/>
-                      {/* 3xs2:w-32 sm1:w-3/4 */}
+                      <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-24 3xs2:w-36'/>
+                      {/* sm1:w-3/4 */}
                     </p>
                     <p className="3xs1:text-sm 3xs1:py-2">
-                    {/* 3xs2:text-base sm1:text-base sm1:leading-relaxed sm2:text-lg */}
+                    {/* sm1:text-base sm1:leading-relaxed sm2:text-lg */}
                       Podrás ver completamente en VIVO las ligas deportivas más importantes del mundo, estés donde estés.
                       <div className="flex items-center">
                         {/* sm1:my-1 */}
                         <div className="text-right 3xs1:w-3/4 3xs1:mx-1 3xs2:w-2/3">
-                        {/* 3xs2:w-2/3 3xs2:mx-1 3xs2:text-base
-                        2xs1:w-3/5 2xs1:mx-1 
+                        {/* 2xs1:w-3/5 2xs1:mx-1 
                         sm2:text-lg */}
                           Sólo para MX
                         </div>
                         <div className="3xs1:w-1/4 3xs1:mx-1 3xs2:w-1/3">
                         {/* 2xs1:w-2/5 2xs1:mx-1 */}
                           <img title="iconMX" src={iconMX} alt="iconMX" placeholder="iconMX" className='3xs1:w-3 3xs2:w-5'/>
-                          {/* 3xs2:w-6 2xs1:w-6 sm1:w-6 */}
+                          {/* 2xs1:w-6 sm1:w-6 */}
                         </div>
                       </div>
                     </p>
