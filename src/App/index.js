@@ -32,13 +32,13 @@ function App() {
           </div>
           <div className="block">
             <div className='flex 3xs1:flex-col md1:flex-row lg:flex-col 3xs1:items-start md1:items-center lg:items-start justify-around h-full text-center font-bold '>
-              <div className='block w-full h-full 3xs1:px-8 3xs2:px-14'>
+              <div className='block w-full h-full 3xs1:px-8 3xs2:px-14 2xs4:px-12'>
                 <div className='flex flex-row 3xs1:items-end md1:items-center lg:items-end justify-around h-full text-center'>
                   <div className='block'>
                     <p className="3xs1:text-xl 3xs1:py-2 3xs2:text-2xl ">Bienvenido a</p>
                     {/* sm1:text-3xl */}
                     <p className='flex flex-1 items-center justify-around'>
-                      <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-24 3xs2:w-36'/>
+                      <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-24 3xs2:w-36 2xs1:w-40 2xs3:w-44 2xs5:w-[184px]'/>
                       {/* sm1:w-3/4 */}
                     </p>
                     <p className="3xs1:text-sm 3xs1:py-2">
@@ -46,12 +46,12 @@ function App() {
                       Podrás ver completamente en VIVO las ligas deportivas más importantes del mundo, estés donde estés.
                       <div className="flex items-center">
                         {/* sm1:my-1 */}
-                        <div className="text-right 3xs1:w-3/4 3xs1:mx-1 3xs2:w-2/3">
+                        <div className="text-right 3xs1:w-3/4 3xs1:mx-1 3xs2:w-2/3 2xs1:w-3/5">
                         {/* 2xs1:w-3/5 2xs1:mx-1 
                         sm2:text-lg */}
                           Sólo para MX
                         </div>
-                        <div className="3xs1:w-1/4 3xs1:mx-1 3xs2:w-1/3">
+                        <div className="3xs1:w-1/4 3xs1:mx-1 3xs2:w-1/3 2xs1:w-2/5">
                         {/* 2xs1:w-2/5 2xs1:mx-1 */}
                           <img title="iconMX" src={iconMX} alt="iconMX" placeholder="iconMX" className='3xs1:w-3 3xs2:w-5'/>
                           {/* 2xs1:w-6 sm1:w-6 */}
@@ -61,15 +61,15 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='block w-full h-full 3xs1:px-8 3xs2:px-14'>
+              <div className='block w-full h-full 3xs1:px-8 3xs2:px-14 2xs4:px-12'>
                 <div className='flex flex-row 3xs1:items-start md1:items-center lg:items-start justify-around h-full text-center'>
                   <div className='block'>
                     <div className='flex 3xs1:flex-col xl:flex-row justify-around'>
-                      <div className='block bg-[#F12364] cursor-pointer rounded-[3.125rem] px-4 py-2 m-2 3xs1:w-32 3xs2:w-52'>
+                      <div className='block bg-[#F12364] cursor-pointer rounded-[3.125rem] px-4 py-2 m-2 3xs1:text-xl 3xs1:w-32 3xs2:w-52 2xs1:w-56 2xs3:w-64 2xs3:w-[248px]'>
                       {/* sm1:w-3/4 sm1:text-xl sm1:py-1 3xs3:my-2 */}
                         <span>Contrata</span>
                       </div>
-                      <div className='block bg-[#603685] cursor-pointer rounded-[3.125rem] px-4 py-2 m-2 3xs1:w-32 3xs2:w-52'>
+                      <div className='block bg-[#603685] cursor-pointer rounded-[3.125rem] px-4 py-2 m-2 3xs1:text-xl 3xs1:w-32 3xs2:w-52 2xs1:w-56 2xs3:w-64 2xs3:w-[248px]'>
                       {/* sm1:w-3/4 sm1:text-xl sm1:py-1 3xs3:my-2 */}
                         <span>Tu cuenta</span
                       ></div>
