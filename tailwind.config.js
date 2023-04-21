@@ -42,9 +42,9 @@ module.exports = {
       /* iPad Pro 12.9": 1024x1366 */
       'xl': '1280px', 
       /* Laptop 2: 1280x800 */
-      '2xl': '1536px', 
+      '2xl': '1440px', 
       /* macbook pro: 1440x900 */
-      '3xl': '1600px', 
+      '3xl': '1552px', 
       /* Escritorio: 1552x757 */
       'hd': '1920px',
       /* 1920x1080 */

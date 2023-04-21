@@ -30,6 +30,9 @@
       lg:bg-[url('./Assets/bg_1_movil.png')] 
       xl:bg-[url('./Assets/bg_1.png')]
       2xl:bg-[url('./Assets/bg_1.png')] 
+      3xl:bg-[url('./Assets/bg_1.png')] 
+      hd:bg-[url('./Assets/bg_1.png')] 
+      4k:bg-[url('./Assets/bg_1.png')] 
     ;
   }
 }
