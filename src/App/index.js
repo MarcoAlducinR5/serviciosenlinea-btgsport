@@ -71,17 +71,37 @@ function App() {
           </div>
         </div> */}
         <div class="flex 3xs1:flex-col lg:flex-row w-full">
-          <div class="3xs1:basis-1/2 3xs3:basis-[47.5%] 2xs1:basis-[47%] 2xs2:basis-1/2 2xs3:basis-[50.5%] 2xs4:basis-[59.5%] 2xs5:basis-[49%] sm1:basis-[71.5%] sm2:basis-[56.5%] md1:basis-[55%] md2:basis-[54.5%] md3:basis-[55.5%] lg:basis-[64%] xl:basis-3/5 2xl:basis-3/5 border-2">
+          <div class="3xs1:basis-1/2 3xs3:basis-[47.5%] 2xs1:basis-[47%] 2xs2:basis-1/2 2xs3:basis-[50.5%] 2xs4:basis-[59.5%] 2xs5:basis-[49%] sm1:basis-[71.5%] sm2:basis-[56.5%] md1:basis-[55%] md2:basis-[54.5%] md3:basis-[55.5%] lg:basis-[64%] xl:basis-3/5 2xl:basis-3/5">
             <div className='flex flex-row 3xs1:items-end lg:items-center justify-around h-full text-center'>
               <div className='block'>
                 <img src={imgHome} title="imgHome" alt="imgHome" placeholder="imgHome" className='xl:hidden 3xs1:block 3xs1:px-4 sm1:px-5 md1:w-[465px] md2:w-[482px] md3:w-[502px] lg:w-[368px]'/>
               </div>
             </div>
           </div>
-          <div class="3xs1:basis-1/2 3xs3:basis-[52.5%] 2xs1:basis-[53%] 2xs2:basis-1/2 2xs3:basis-[49.5%] 2xs4:basis-[40.5%] 2xs5:basis-[51%] sm1:basis-[28.5%] sm2:basis-[43.5%] md1:basis-[45%] md2:basis-[45.5%] md3:basis-[44.5%] lg:basis-[41%] xl:basis-2/5 2xl:basis-2/5">
+          <div class="3xs1:basis-1/2 3xs3:basis-[52.5%] 2xs1:basis-[53%] 2xs2:basis-1/2 2xs3:basis-[49.5%] 2xs4:basis-[40.5%] 2xs5:basis-[51%] sm1:basis-[28.5%] sm2:basis-[43.5%] md1:basis-[45%] md2:basis-[45.5%] md3:basis-[44.5%] lg:basis-[41%] xl:basis-2/5 2xl:basis-2/5 text-center font-bold">
             <div class="flex 3xs1:flex-col md1:flex-row lg:flex-col h-full">
-              <div class="3xs1:basis-1/2 3xs2:basis-[58%] 3xs3:basis-[63.5%] 2xs1:basis-[61%] 2xs2:basis-[61%] 2xs3:basis-[61%] 2xs4:basis-[48%] 2xs5:basis-[63%] sm1:basis-1/2 sm2:basis-[54%] md1:basis-1/2 lg:basis-3/5 xl:basis-3/4 2xl:basis-[71.75%] 3xl:basis-4/5 hd:basis-[72%] 4k:basis-[75.5%] border-2">01</div>
-              <div class="3xs1:basis-1/2 3xs2:basis-[42%] 3xs3:basis-[37.5%] 2xs1:basis-[39%] 2xs2:basis-[39%] 2xs3:basis-[39%] 2xs4:basis-[52%] 2xs5:basis-[37%] sm1:basis-1/2 sm2:basis-[46%] md1:basis-1/2 lg:basis-2/5 xl:basis-1/4 2xl:basis-[28.25%] 3xl:basis-1/5 hd:basis-[28%] 4k:basis-[25.5%] border-2">02</div>
+              <div class="flex 3xs1:basis-1/2 3xs2:basis-[58%] 3xs3:basis-[63.5%] 2xs1:basis-[61%] 2xs2:basis-[61%] 2xs3:basis-[61%] 2xs4:basis-[48%] 2xs5:basis-[63%] sm1:basis-1/2 sm2:basis-[54%] md1:basis-1/2 lg:basis-3/5 xl:basis-3/4 2xl:basis-[71.75%] 3xl:basis-4/5 hd:basis-[72%] 4k:basis-[75.5%] 3xs1:items-end md1:items-center lg:items-end justify-around border-2">
+                <div className='block 3xs1:px-8 3xs2:px-12 2xs3:px-14 2xs5:px-12'>
+                  <p className="3xs1:text-xl 3xs1:py-2 3xs2:text-2xl">Bienvenido a</p>
+                  <p className='flex flex-1 items-center justify-around'>
+                    <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-[88px] 3xs2:w-36 3xs3:w-[150px] 2xs1:w-40 2xs3:w-44'/>
+                  </p>
+                  <p className="3xs1:text-sm 3xs1:py-2">
+                    Podrás ver completamente en VIVO las ligas deportivas más importantes del mundo, estés donde estés.
+                    <div className="flex items-center 3xs2:py-1 2xs1:py-0">
+                      <div className="text-right 3xs1:w-4/5 3xs1:mx-1 3xs2:w-2/3 3xs3:w-[63%] 2xs4:w-[62%]">
+                        Sólo para MX
+                      </div>
+                      <div className="3xs1:w-1/5 3xs2:w-1/3 3xs3:w-[37%] 2xs4:w-[38%]">
+                        <img title="iconMX" src={iconMX} alt="iconMX" placeholder="iconMX" className='3xs1:w-3 3xs2:w-5 2xs1:w-6 '/>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div class="flex 3xs1:basis-1/2 3xs2:basis-[42%] 3xs3:basis-[37.5%] 2xs1:basis-[39%] 2xs2:basis-[39%] 2xs3:basis-[39%] 2xs4:basis-[52%] 2xs5:basis-[37%] sm1:basis-1/2 sm2:basis-[46%] md1:basis-1/2 lg:basis-2/5 xl:basis-1/4 2xl:basis-[28.25%] 3xl:basis-1/5 hd:basis-[28%] 4k:basis-[25.5%] 3xs1:items-start md1:items-center lg:items-start justify-around border-2">
+                <div className='block border-2'>02</div>
+              </div>
             </div>
           </div>
         </div>
