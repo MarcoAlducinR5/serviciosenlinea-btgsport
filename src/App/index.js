@@ -81,18 +81,18 @@ function App() {
           <div class="3xs1:basis-1/2 3xs3:basis-[52.5%] 2xs1:basis-[53%] 2xs2:basis-1/2 2xs3:basis-[49.5%] 2xs4:basis-[40.5%] 2xs5:basis-[51%] sm1:basis-[28.5%] sm2:basis-[43.5%] md1:basis-[45%] md2:basis-[45.5%] md3:basis-[44.5%] lg:basis-[41%] xl:basis-2/5 2xl:basis-2/5 text-center font-bold">
             <div class="flex 3xs1:flex-col md1:flex-row lg:flex-col h-full">
               <div class="flex 3xs1:basis-1/2 3xs2:basis-[58%] 3xs3:basis-[63.5%] 2xs1:basis-[61%] 2xs2:basis-[61%] 2xs3:basis-[61%] 2xs4:basis-[48%] 2xs5:basis-[63%] sm1:basis-1/2 sm2:basis-[54%] md1:basis-1/2 lg:basis-3/5 xl:basis-3/4 2xl:basis-[71.75%] 3xl:basis-4/5 hd:basis-[72%] 4k:basis-[75.5%] 3xs1:items-end md1:items-center lg:items-end justify-around border-2">
-                <div className='block 3xs1:px-8 3xs2:px-12 2xs3:px-14 2xs5:px-12 sm1:px-16 sm2:px-24 md1:px-12 lg:px-8 xl:px-5'>
-                  <p className="3xs1:text-xl 3xs1:py-2 3xs2:text-2xl sm1:text-[27px] lg:text-[32.5px]">Bienvenido a</p>
+                <div className='block 3xs1:px-8 3xs2:px-12 2xs3:px-14 2xs5:px-12 sm1:px-16 sm2:px-24 md1:px-12 lg:px-8 xl:px-5 2xl:px-8'>
+                  <p className="3xs1:text-xl 3xs1:py-2 3xs2:text-2xl sm1:text-[27px] lg:text-[32.5px] 2xl:text-[34px] 3xl:text-4xl">Bienvenido a</p>
                   <p className='flex flex-1 items-center justify-around'>
-                    <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-[88px] 3xs2:w-36 3xs3:w-[150px] 2xs1:w-40 2xs3:w-44 sm1:w-[314px] sm2:w-[335px] md1:w-[232px] md2:w-[242px] md3:w-[252px] lg:w-[261px] xl:w-[331px]'/>
+                    <img src={logoBig} title="logoBig" alt="logoBig" placeholder="logoBig" className='3xs1:w-[88px] 3xs2:w-36 3xs3:w-[150px] 2xs1:w-40 2xs3:w-44 sm1:w-[314px] sm2:w-[335px] md1:w-[232px] md2:w-[242px] md3:w-[252px] lg:w-[261px] xl:w-[331px] 2xl:w-[376.5px] 3xl:w-[407px]'/>
                   </p>
                   <p className="3xs1:text-sm 3xs1:py-2 sm1:text-base lg:text-lg">
                     Podrás ver completamente en VIVO las ligas deportivas más importantes del mundo, estés donde estés.
                     <div className="flex items-center 3xs2:py-1 2xs1:py-0">
-                      <div className="text-right 3xs1:w-4/5 3xs1:mx-1 3xs2:w-2/3 3xs3:w-[63%] 2xs4:w-[62%] sm1:w-[55%] md1:w-3/5 xl:w-[58.5%]">
+                      <div className="text-right 3xs1:w-4/5 3xs1:mx-1 3xs2:w-2/3 3xs3:w-[63%] 2xs4:w-[62%] sm1:w-[55%] md1:w-3/5 xl:w-[58.5%] 3xl:w-[57%]">
                         Sólo para MX
                       </div>
-                      <div className="3xs1:w-1/5 3xs2:w-1/3 3xs3:w-[37%] 2xs4:w-[38%] sm1:w-[45%] md1:w-2/5 lg:mx-1 xl:w-[41.5%]">
+                      <div className="3xs1:w-1/5 3xs2:w-1/3 3xs3:w-[37%] 2xs4:w-[38%] sm1:w-[45%] md1:w-2/5 lg:mx-1 xl:w-[41.5%] 3xl:w-[43%]">
                         <img title="iconMX" src={iconMX} alt="iconMX" placeholder="iconMX" className='3xs1:w-3 3xs2:w-5 2xs1:w-6 sm1:w-[30px] '/>
                       </div>
                     </div>
