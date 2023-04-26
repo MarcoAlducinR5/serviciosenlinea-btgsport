@@ -1,9 +1,9 @@
 import React from 'react';
-import imgHome from "../../Assets/img_home.png";
-import logoBig from "../../Assets/logo-btgs-big.png";
-import iconMX from "../../Assets/icon-MX.svg";
+import { BtgSportsCtxt } from '../../Context';
 
 function Main(){
+
+    const {imgHome, logoBig, iconMX} = React.useContext(BtgSportsCtxt);
     return(
         <div class="flex 3xs1:flex-col lg:flex-row w-full">
             <div class="3xs1:basis-1/2 3xs3:basis-[47.5%] 2xs1:basis-[47%] 2xs2:basis-1/2 2xs3:basis-[50.5%] 2xs4:basis-[59.5%] 2xs5:basis-[49%] sm1:basis-[71.5%] sm2:basis-[56.5%] md1:basis-[55%] md2:basis-[54.5%] md3:basis-[55.5%] lg:basis-[64%] xl:basis-3/5 2xl:basis-3/5">

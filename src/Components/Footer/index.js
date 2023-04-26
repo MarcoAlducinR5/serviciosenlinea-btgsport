@@ -1,8 +1,9 @@
 import React from 'react';
-import footer1 from "../../Assets/footer_logos.png";
-import footer2 from "../../Assets/footer_logos2.png";
+import { BtgSportsCtxt } from '../../Context';
 
 function Footer(){
+    
+    const {footer1, footer2} = React.useContext(BtgSportsCtxt);
     return (
         <div className='flex flex-row items-center justify-around'>
             <div className='block'>
