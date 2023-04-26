@@ -103,10 +103,10 @@ function App() {
               <div class="flex 3xs1:basis-1/2 3xs2:basis-[42%] 3xs3:basis-[37.5%] 2xs1:basis-[39%] 2xs2:basis-[39%] 2xs3:basis-[39%] 2xs4:basis-[52%] 2xs5:basis-[37%] sm1:basis-1/2 sm2:basis-[46%] md1:basis-1/2 lg:basis-2/5 xl:basis-1/4 2xl:basis-[28.25%] 3xl:basis-1/5 hd:basis-[28%] 4k:basis-[25.5%] 3xs1:items-start md1:items-center lg:items-start justify-around border-2">
                 <div className='block border-2'>
                   <div className='flex 3xs1:flex-col xl:flex-row justify-around'>
-                    <div className='block bg-[#F12364] cursor-pointer rounded-[3.125rem] px-4 py-2 m-1 3xs1:text-xl 3xs1:w-32 3xs2:w-52 3xs2:py-1 3xs2:m-2.5 3xs3:m-3 3xs3:w-[214px] 2xs1:w-56 2xs3:w-60'>
+                    <div className='block bg-[#F12364] cursor-pointer rounded-[3.125rem] px-4 py-2 m-1 3xs1:text-xl 3xs1:w-32 3xs2:w-52 3xs2:py-1 3xs2:m-2.5 3xs3:m-3 3xs3:w-[214px] 2xs1:w-56 2xs3:w-60 sm1:w-[445px] sm2:w-[480px] md1:w-[244px] md2:w-64 md3:w-[267.5px]'>
                       <span>Contrata</span>
                     </div>
-                    <div className='block bg-[#603685] cursor-pointer rounded-[3.125rem] px-4 py-2 m-1 3xs1:text-xl 3xs1:w-32 3xs2:w-52 3xs2:py-1 3xs2:m-2.5 3xs3:m-3 3xs3:w-[214px] 2xs1:w-56 2xs3:w-60'>
+                    <div className='block bg-[#603685] cursor-pointer rounded-[3.125rem] px-4 py-2 m-1 3xs1:text-xl 3xs1:w-32 3xs2:w-52 3xs2:py-1 3xs2:m-2.5 3xs3:m-3 3xs3:w-[214px] 2xs1:w-56 2xs3:w-60 sm1:w-[445px] sm2:w-[480px] md1:w-[244px] md2:w-64 md3:w-[267.5px]'>
                       <span>Tú cuenta</span
                     ></div>
                   </div>
